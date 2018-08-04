@@ -17,7 +17,7 @@ function changeImage(img) {
     content.appendChild(image);
 }
 
-var summary_txt = 
+var summary_txt =
     {
         name: "summary.txt",
         type: "txt",
@@ -41,17 +41,17 @@ var contact_txt =
     {
         name: "contact.txt",
         type: "txt",
-        text: "E-mail: jonathan.ma[ at ]uwaterloo.ca\n\n" +
-              "LinkedIn: https://www.linkedin.com/pub/jonathan-ma/37/13b/a08\n\n" +
-              "Facebook: https://www.facebook.com/majonathanj\n\n" +
-              "GitHub: https://github.com/JohnnyJohnAndTheFunkyBunch\n"
+        text: "E-mail: steevejoseph[ at ]knights.ucf.edu\n\n" +
+              "LinkedIn: https://www.linkedin.com/in/steeve-joseph-6b2550126/\n\n" +
+              /*"Facebook: https://www.facebook.com/majonathanj\n\n" +*/
+              "GitHub:https://github.com/steevejoseph/\n"
     };
 
 var resume_pdf =
     {
-        name: "JMA_Resume.pdf",
+        name: "sjoseph_resume.pdf",
         type: "pdf",
-        link: "JMA_Resume.pdf"
+        link: "sjoseph_resume.pdf"
     };
 
 var resume_txt =
@@ -60,56 +60,66 @@ var resume_txt =
         type: "txt",
         text: "\
 \n********************************************************************************\
-\n                                  Jonathan Ma\
-\njonathan.ma@uwaterloo.ca                                            226.978.3108\
+\n                                  Steeve Joseph\
+\nsteevejoseph@knights.ucf.edu                                           321.746.5672\
 \n\
-\n3B Honours Mathematics - Computer Science Major, Statistics Major, Econ Minor\
+\nBachelor of Science in Computer Science\
 \n********************************************************************************\
 \n\
-\n   Technical Skills: C/C++, Python, Unix/Linux, Bash, Excel VBA\
-\n   Web & Design    : HTML/CSS, Django, PHP, MySQL, Adobe Photoshop\
+\n   Skills Summary\
+\n   Languages: Python (proficient), Java (proficient), C (proficient),\
+\n              JavaScript (familiar), C++ (familiar), SQL (familiar), R (familiar)\
+\n   Operating Systems: Windows (XP/7/8/10), macOS, Linux (Ubuntu/Arch/Kali)\
+\n   Frameworks/Libraries: ExpressJS, NodeJS, PassportJS, Django/Flask, Bootstrap, jQuery\
+\n   Development Tools: Vim, Git, Plastic SCM, Unity, Atlassian JIRA (Scrum), LaTeX\
 \n\
 \n\
 \n***************\
 \nWork Experience\
 \n***************\
-\n   ___________________________________________________________________________\
-\n   LinkedIn\
-\n   Software Engineer Intern - Graph Team\
-\n      - Implemented features in a new generation in memory distributed graph \
-\n        database in C++ \
-\n   ___________________________________________________________________________\
-\n   Citadel\
-\n   Financial Technology Summer Associate - Option IT\
-\n      - Designed and developed a high performant multithreaded WebSocket/Web \
-\n        server in C++ and its web interface in Javascript serving multiple \
-\n        browser clients \
-\n   ___________________________________________________________________________\
-\n   Scotia Capital\
-\n   Financial Engineer - Credit & Equity Derivatives\
-\n      - Developed and improved option modelling tools for equity\
-\n        derivatives traders in C++ and VBA\
+\n Leidos\
+\n Software Engineering Intern\
+\n     - Wrote shell script to streamline process of backup/re-image, installation\
+\n       and configuration of internal tooling. Decreased total downtime from 2 hours to 13 minutes.\
+\n     - Wrote Python scripts to autonomously detect/react to remote processes and broadcasts.\
+\n     - Helping investigate/build distributed virtualization architecture centered around Docker, AWS.\
+\n     - Helping design front-end UI as well as functionality for portable clouds and cloud application interfaces.\
+\n     - Providing support for OneSAF database production, database tool development,\
+\n       and integration & testing of software on target systems.\
 \n\
-\n********\
-\nResearch\
-\n********\
+\n  ___________________________________________________________________________\
+\n  DiSTI Corporation Orlando, FL\
+\n  Software Engineering Intern\
+\n     - Help plan, design, and develop military training simulations.\
+\n     - Write/edit C# scripts to add functionality to simulations in Unity game engine.\
+\n     - Troubleshoot proprietary software, product network, and target systems/network.\
 \n\
-\n    Nessie: A Decoupled, Client-Driven, Key-Balue Store using RDMA\
+\n\
+\n**********************************\
+\nCompetitions and Personal Projects\
+\n***********************************\
+\n\
+\n   Testopian (Testing framework for automated trading algorithms)\
+\n   PL/0 Compiler\
+\n   Yelp Camp (RESTful CRUD campground review site)\
+\n   Financial Analyzer\
+\n   Motion Detector\
+\n\
 \n\
 \n*********\
 \nEducation\
 \n*********\
 \n\
-\n   University of Waterloo\
-\n      - Deans Honours List: 93% Average\
+\n   University of Central Florida\
+\n\
 "
     };
 
-var welcome_txt = 
+var welcome_txt =
     {
         name: "welcome.txt",
         type: "txt",
-        text: "[[b;aqua;black]Welcome to my Website. My name is Jonathan Ma]\nEnjoy your stay.\n\nPress ` to minimize the terminal. Available commands are:\n" +
+        text: "[[b;aqua;black]Welcome to my Website. My name is Steeve Joseph]\nHave a look around! :) \n\nPress ` to minimize the terminal. Available commands are:\n" +
               "[[b;red;black]cd], [[b;red;black]ls], [[b;red;black]cat], [[b;red;black]open] (opens file like pdf and jpg)\n"
     };
 
@@ -168,7 +178,7 @@ var art =
         type: "folder",
         kids: [art_1, art_2, art_3, art_4, art_5, art_6, art_7, art_8],
         back: projects,
-        setg: { prompt: '[[b;lawngreen;black]jonathan.ma:/Projects/Art~] ',
+        setg: { prompt: '[[b;lawngreen;black]steevejoseph.me:/Projects/Art~] ',
                 name:   'jonathan.ma',
                 completion: function(term, string, callback) {
                     callback([
@@ -184,26 +194,26 @@ var art =
               }
     };
 
-var predictious =
+var motion =
     {
-        name: "predictious-bot.git",
+        name: "motion.git",
         type: "pdf",
-        link: "https://github.com/JohnnyJohnAndTheFunkyBunch/predictious-bot"
+        link: "https://github.com/steevejoseph/motion"
     };
-var websocket =
+var finany =
     {
-        name: "simplewebsocket.git",
+        name: "finany.git",
         type: "pdf",
-        link: "https://github.com/JohnnyJohnAndTheFunkyBunch/simplewebsocket"
+        link: "https://github.com/steevejoseph/stock_visualizer"
     };
 
-var coding = 
+var coding =
     {
         name: "Coding",
         type: "folder",
-        kids: [predictious, websocket],
+        kids: [motion, finany],
         back: projects,
-        setg: { prompt: '[[b;lawngreen;black]jonathan.ma:/Projects/Coding~] ',
+        setg: { prompt: '[[b;lawngreen;black]steevejoseph.me:/Projects/Coding~] ',
                 name:   'jonathan.ma',
                 completion: function(term, string, callback) {
                     callback([
@@ -219,16 +229,16 @@ var aboutme =
     {
         name: "AboutMe",
         type: "folder",
-        kids: [resume_pdf, contact_txt, resume_txt,summary_txt],
+        kids: [resume_pdf, contact_txt, resume_txt /*,summary_txt*/],
         back: home,
-        setg: { prompt: '[[b;lawngreen;black]jonathan.ma:/AboutMe~] ',
+        setg: { prompt: '[[b;lawngreen;black]steevejoseph.me:/AboutMe~] ',
                 name:   'jonathan.ma',
                 completion: function(term, string, callback) {
                     callback([
                               'summary.txt',
                               'resume.txt',
                               'contact.txt',
-                              'JMA_Resume.pdf'
+                              'sjoseph_resume.pdf'
                               ]);},
               }
     };
@@ -237,9 +247,9 @@ var projects =
     {
         name: "Projects",
         type: "folder",
-        kids: [art, coding],
+        kids: [/*art,*/ coding],
         back: home,
-        setg: { prompt: '[[b;lawngreen;black]jonathan.ma:/Projects~] ',
+        setg: { prompt: '[[b;lawngreen;black]steevejoseph.me:/Projects~] ',
                 name:   'jonathan.ma',
                 completion: function(term, string, callback) {
                     callback([
@@ -255,20 +265,20 @@ var blog =
         type: "folder",
         kids: [],
         back: home,
-        setg: { prompt: '[[b;lawngreen;black]jonathan.ma:/Blog~] ',
+        setg: { prompt: '[[b;lawngreen;black]steevejoseph.me:/Blog~] ',
                 name:   'jonathan.ma',
                 completion: function(term, string, callback) {
                     callback([
                               ]);},
               }
     };
-var home = 
+var home =
     {
         name: "Home",
         type: "folder",
         kids: [aboutme, blog, projects, welcome_txt],
         back: home,
-        setg: { prompt: '[[b;lawngreen;black]jonathan.ma:/~] ',
+        setg: { prompt: '[[b;lawngreen;black]steevejoseph.me:/~] ',
                 name:   'jonathan.ma',
                 completion: function(term, string, callback) {
                     callback([

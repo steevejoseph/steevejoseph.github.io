@@ -1,44 +1,75 @@
 ********************************************************************************
-                                  Jonathan Ma
-jonathan.ma@uwaterloo.ca                                            226.978.3108
+                                  Steeve Joseph
+steevejoseph@knights.ucf.edu                                           321.746.5672
 
-3B Honours Mathematics - Computer Science Major, Statistics Major, Econ Minor
+Bachelor of Science in Computer Science
 ********************************************************************************
 
-   Technical Skills: C/C++, Python, Unix/Linux, Bash, Excel VBA, LaTex
-   Web & Design    : HTML/CSS, PHP/MySQL, Adobe Photoshop, Adobe Premiere Pro
+   Skills Summary
+   Languages: Python (proficient), Java (proficient), C (proficient),
+              JavaScript (familiar), C++ (familiar), SQL (familiar),
+              R (familiar)
 
+   Operating Systems: Windows (XP/7/8/10), macOS, Linux (Ubuntu/Arch/Kali)
+   Frameworks/Libraries: ExpressJS, NodeJS, PassportJS, Django/Flask, Bootstrap, jQuery
+   Development Tools: Vim, Git, Plastic SCM, Unity, Atlassian JIRA (Scrum), LaTeX
 
 ***************
 Work Experience
 ***************
+
+  ___________________________________________________________________________
+  Leidos
+  Software Engineering Intern
+      - Wrote shell script to streamline process of backup/re-image, installation
+        and configuration of internal tooling. Decreased total downtime from 2 hours to 13 minutes.
+      - Wrote Python scripts to autonomously detect/react to remote processes and broadcasts.
+      - Helping investigate/build distributed virtualization architecture centered around Docker, AWS.
+      - Helping design front-end UI as well as functionality for portable clouds and cloud application interfaces.
+      - Providing support for OneSAF database production, database tool development,
+        and integration & testing of software on target systems.
+
    ___________________________________________________________________________
-   Citadel
-   Financial Technology Summer Associate - Option IT
-      - Wrote tools for high frequency trading
-   ___________________________________________________________________________
-   Scotia Capital
-   Financial Engineer - Credit & Equity Derivatives
-      - Developed and improved option modelling tools for equity
-        derivatives traders in C++ and VBA
+   DiSTI Corporation Orlando, FL
+   Software Engineering Intern
+      - Help plan, design, and develop military training simulations.
+      - Write/edit C# scripts to add functionality to simulations in Unity game engine.
+      - Troubleshoot proprietary software, product network, and target systems/network.
 
 **********************************
 Competitions and Personal Projects
 **********************************
 
-    Predictious Trading Bot
+    Testopian (Testing framework for automated trading algorithms)
 
-    2D SDL Game
+    PL/0 Compiler
 
-    Rotman International Trading Competition
+    Yelp Camp (RESTful CRUD campground review site)
 
-    Smash Player Database
+    Financial Analyzer
 
-    CRC Robotics Competition
+    Motion Detector
+
+
+****
+20%
+****
+  - Current Coursework: Artificial Intelligence, Robot Vision,
+    Processes for OO Software Development
+
+  - Hackathons: sudo hackStetson 2017/2018, OTAB Smart City Initiative, KnightHacks 2017,
+    Microsoft Hack Knight
+
+  - Organizations: ACM, SIG AI @ UCF, UCF Programming Team practice,
+    Orlando Python User Group, Orlando Golang User Group
+
+  - CS Mentorship: Provide guidance about curriculum, career path, projects,
+    to undergraduate students with the goal of increasing recruitment of and
+    retention of new Computer Science students at the University of Central Florida.
+
 
 *********
 Education
 *********
 
-   University of Waterloo
-      - Dean's Honours List: 93% Average
+   University of Central Florida

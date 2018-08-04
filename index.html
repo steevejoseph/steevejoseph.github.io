@@ -7,8 +7,8 @@
 <meta name="keywords" content="jonathan ma, software engineer, project manager, data science, university of waterloo, citadel, linkedin">
 <meta name="google-site-verification" content="33dxLQTIC0Mw1p3Nw6VES6yVeHi2K2tkun3Pk1B34nc" />
   <meta charset="utf-8" />
-  <title>Jonathan Ma | www.jonathan.ma</title>
-  <meta name="Description" content="Jonathan Ma's personal website"/>
+  <title>Steeve Joseph | www.steevejoseph.me</title>
+  <meta name="Description" content="Steeve Joseph's personal website"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="dev/jquery.terminal/js/jquery-1.7.1.min.js"></script>
   <script src="dev/jquery.terminal/js/jquery.mousewheel-min.js"></script>
@@ -68,7 +68,7 @@ $.extend_if_has = function(desc, source, array) {
             term.echo("you don't set eval for tilda");
         };
         var settings = {
-            prompt: '[[b;lawngreen;black]jonathan.ma:/~] ',
+            prompt: '[[b;lawngreen;black]steevejoseph.me:/~] ',
             name: 'majonathan.com',
             height: window.innerHeight - 100,
             enabled: false,
@@ -115,7 +115,7 @@ function main(command, terminal) {
             if (curr.kids[i].type == "folder") {
                 terminal.echo('[[b;aqua;black]'+ curr.kids[i].name +']');
             }
-            else if (curr.kids[i].type == "pdf" || 
+            else if (curr.kids[i].type == "pdf" ||
             curr.kids[i].type == "pic") {
                 terminal.echo('[[;purple;black]'+ curr.kids[i].name +']');
             }
@@ -128,13 +128,13 @@ function main(command, terminal) {
         var found = false;
         if (tokens.length > 1) {
             for (var i = 0 ; i < curr.kids.length ; i++) {
-                if (curr.kids[i].type == "txt" && 
+                if (curr.kids[i].type == "txt" &&
                curr.kids[i].name == tokens[1]){
                    terminal.echo(curr.kids[i].text);
                    found = true;
                    break;
                }
-           } 
+           }
            if (!found) {
                terminal.echo('cat: ' + tokens[1] +': No such file');
            }
@@ -157,7 +157,7 @@ function main(command, terminal) {
            else {
 
                 for (var i = 0 ; i < curr.kids.length ; i++) {
-                    if (curr.kids[i].type == "folder" && 
+                    if (curr.kids[i].type == "folder" &&
                     curr.kids[i].name == tokens[1]){
                        curr = curr.kids[i];
                        found = true;
@@ -166,7 +166,7 @@ function main(command, terminal) {
                }
                if (!found) {
                    terminal.echo('cd : ' + tokens[1] +': No such directory');
-               } 
+               }
                else {
                    terminal.push(main, curr.setg);
                }
@@ -177,19 +177,19 @@ function main(command, terminal) {
         var found = false;
         if (tokens.length > 1) {
             for (var i = 0 ; i < curr.kids.length ; i++) {
-                if (curr.kids[i].type == "pdf" && 
+                if (curr.kids[i].type == "pdf" &&
                curr.kids[i].name == tokens[1]){
                    window.open(curr.kids[i].link);
                    found = true;
                    break;
                }
-               else if (curr.kids[i].type == "pic" && 
+               else if (curr.kids[i].type == "pic" &&
                curr.kids[i].name == tokens[1]) {
                    changeImage(curr.kids[i].link);
                    found = true;
                    break;
                }
-           } 
+           }
            if (!found) {
                terminal.echo('open: ' + tokens[1] +': No such file');
            }
@@ -216,42 +216,29 @@ jQuery(document).ready(function($) {
 <body>
   <div id="tilda"></div>
   <section class="sample" id="camus">
+    <span style="position: absolute;top: 3%; right: 3%;">
+      <a href="sjoseph_resume.pdf">Resume</a>
+      <a href="mailto:steevejoseph@knights.ucf.edu">Contact</a>
+      <a href="https://www.linkedin.com/in/steeve-joseph-6b2550126/">LinkedIn</a>
+      <a href="https://github.com/steevejoseph">GitHub</a>
+     </span>
   <div id="content">
     <section class="text">
-        <h1>Jonathan Ma's Website</h1>
+        <h1>Steeve Joseph</h1>
         <hr>
-        <h2>A look into software, data science and management</h2>
+        <h2>"It always gets better, but first it gets worse."</h2>
         <hr class="bottom">
-        <p>WATERLOO, <span id="date">Jan. 6</span>&mdash;I am a University of Waterloo student studying in Computer Science and Statistics minoring in Economics. I'm looking for opportunities to diversify my skillset. I am interested in developing a wide range of skills in diverse fields that would complement each other in unexpected ways. So I engrained this idea to my lifestyle, and created a goal of learning one new thing in depth every trimester.</p>
-        <p>Currently I am an experienced C++ systems developer who mostly worked on infrastructure and distributed systems during my internships at Citadel and LinkedIn. I have knowledge in quantitative trading especially in Options Market Making.</p>
-        <p id="click">For developers, please press ` on this page to open a terminal to navigate this website. If not or you're on mobile, click this paragraph and scroll down.</p>
+        <p>ORLANDO, <span id="date">Jan. 6</span>&mdash;Hello, my name is Steeve Joseph
+           and I am a Computer Science undergraduate at the University of Central Florida, going into my Junior year.
+           I am incredibly passionate about technology and am aspiring to be a Data Scientist,
+           with a leaning towards Quantitative Research.</p>
+        <p>I am a Software Enginerring Intern at Leidos, and have experience in task automation and data visualization with Python.
+          Most of my work revolves around making Adaptive Infrastructure for Virtual Training and Dynamic On-Demand Mission Simulations.</p>
+        <p>  I am currently working on both broadening and deepening my knowledge of statistics and data analysis,
+          as well as testing that knowledge through the development of automated trading algorithms.</p>
+        <p id="click">For developers, please press ` on this page to open a terminal to navigate this website (desktop only). <!--If not or you're on mobile, click this paragraph and scroll down.--></p>
     </section>
   </div>
-  </section>
-  <section class="sample" id="headline">
-    <div id="content">
-    <section class="text">
-      <a href="https://www.google.com/webfonts/specimen/Abril+Fatface" title="Abril Fatface">
-        <h1>Resume</h1>
-      </a>
-    </section>
-    <a href="JMA_Resume.pdf"><img src="images/resume.png"></img></a>
-    </div>>
-  </section>
-  <section class="sample" id="work">
-    <div id="content">
-    <h1>Work</h1>
-    <hr noshade>
-    <img class="logo" src="images/linkedin_logo.png"></img>
-    <h2>LinkedIn</h2>
-    <h3>Software Engineer - Graph Team</h3>
-    <img class="logo" src="images/citadel_logo.png"></img>
-    <h2>Citadel</h2>
-    <h3>Financial Technology Associate - Options Team</h3>
-    <img class="logo" src="images/scotia_logo.png"></img>
-    <h2>Scotiabank</h2>
-    <h3>Financial Engineer - Credit and Equity Derivatives</h3>
-    </div>
   </section>
 </body>
 <script>
@@ -270,13 +257,13 @@ jQuery(document).ready(function($) {
   month[10] = "Nov";
   month[11] = "Dec";
   var n = month[today.getMonth()];
-   document.getElementById("date").innerHTML= n+". " + today.getDate(); 
+   document.getElementById("date").innerHTML= n+". " + today.getDate();
  var wtv = function () {
   var x = document.getElementsByClassName("sample");
   for (var i = 0; i < x.length ; i++) {
     x[i].style.display = 'block';
   }
- } 
+ }
  document.getElementById("click").onclick=wtv;
 </script>
 </html>
