@@ -238,7 +238,7 @@ var aboutme =
                               'summary.txt',
                               'resume.txt',
                               'contact.txt',
-                              'sjoseph_resume.pdf'
+                              'steeve_joseph_resume.pdf'
                               ]);},
               }
     };
