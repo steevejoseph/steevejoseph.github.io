@@ -49,9 +49,9 @@ var contact_txt =
 
 var resume_pdf =
     {
-        name: "sjoseph_resume.pdf",
+        name: "steeve_joseph_resume.pdf",
         type: "pdf",
-        link: "sjoseph_resume.pdf"
+        link: "steeve_joseph_resume.pdf"
     };
 
 var resume_txt =
